@@ -31,8 +31,8 @@ Terms of Use: This work is licensed under [CC0](https://www.blender.org/download
 Blender Barbershop from "Agent 327" by Blender Institute   
 Terms of Use: This work is licensed under [CC-BY-ND](https://cloud.blender.org/p/agent-327/about)   
 Changes:
-- Gaffer Scene converted from Original workin Blender.   
-- Export/Conversion was possible at a 100% match.   
+- Gaffer Scene converted from Original Blender file.   
+- Export/Conversion was not possible at a 100% match.   
 Certain elements -for ie:objects/uvs/textures- not translating correctly,   
 had to be re-done following the original work.
 
