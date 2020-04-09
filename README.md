@@ -3,22 +3,29 @@ Gaffer Production Examples
 
 
 [Setup](#Setup)  
-[Clasroom](#Clasroom)  
 [Barbershop](#Barbershop)  
+[Clasroom](#Clasroom)  
 [Licenses](#Licenses)  
 
-## Setup
+## Setup 
 Set the project:gaffer-examples Variable to the root folder of this examples.
-
 <img src="docs/gaffer-examples_variables.png" alt="EZSurfacing Tools" style="" />
+#### unzip
+Due to file size limitations, the barbershop alembic file is **compressed**.   
+Find it here /barbershop/abc/ and Uncompress it!.
+
+
+## Barbershop
+Work In Progress
+<img width="100%" src="docs/gaffer-examples_barbershop.png" alt="EZSurfacing Tools" style="" />   
+<img width="100%" src="docs/gaffer-examples_barbershop-v001_counterNight.jpg" alt="EZSurfacing Tools" style="" />   
+<img width="100%" src="docs/gaffer-examples_barbershop-v001_chairsNight.jpg" alt="EZSurfacing Tools" style="" />   
+<img width="100%" src="docs/gaffer-examples_barbershop-v001_chairsDay.jpg" alt="EZSurfacing Tools" style="" />   
+
 
 ## Clasroom
 Work In Progress
 <img width="100%" src="docs/gaffer-examples_classroom.png" alt="EZSurfacing Tools" style="" />
-
-## Barbershop
-Work In Progress
-<img width="100%" src="docs/gaffer-examples_barbershop-wip.png" alt="EZSurfacing Tools" style="" />
 
 ## Licenses
 Different parts of this repo, have different Licenses.
