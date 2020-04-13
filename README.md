@@ -1,5 +1,6 @@
 # gaffer-examples
-Gaffer Production Examples
+Gaffer Production Examples.   
+***Note: Surfacing is in WIP***
 
 
 [Setup](#Setup)  
@@ -26,6 +27,7 @@ Work In Progress
 ## Clasroom
 Work In Progress
 <img width="100%" src="docs/gaffer-examples_classroom.png" alt="EZSurfacing Tools" style="" />
+<img width="100%" src="docs/gaffer-examples_clasroom-v001_originalCamera.jpg" alt="EZSurfacing Tools" style="" /> 
 
 ## Licenses
 Different parts of this repo, have different Licenses.
