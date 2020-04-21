@@ -121,6 +121,21 @@ Terms of Use: This work is licensed under [CC0](https://hdrihaven.com/p/license.
 HDR under /resources/hdri/zbyg by [zbyg](https://hdrihaven.com/)   
 Terms of Use: This work is licensed under [CC BY](https://creativecommons.org/licenses/by/3.0/)
 
+###### Icons
+String lights icon by supalerk laipawat from the Noun Project   
+Set Lights by Lluisa Iborra from the Noun Project  
+Camera aperture tool by Vectors Point from the Noun Project  
+Videocamera by Vichanon Chaimsuk from the Noun Project  
+Rotation by Andrejs Kirma from the Noun Project  
+Setting by ghufronagustian from the Noun Project  
+Gear by Gan Khoon Lay from the Noun Project  
+Fork by useiconic dot com from the Noun Project  
+Layers by Creative Stall from the Noun Project  
+Layers by Bernar  Novalyi from the Noun Project  
+Tag by Marta Ambrosetti from the Noun Project  
+Settings by Fahmi Ramdani from the Noun Project  
+
+
 ##### About CC0, CC-BY, CC-BY-ND
 [CC0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/)   
 [CC BY](https://creativecommons.org/licenses/by/3.0/)  
