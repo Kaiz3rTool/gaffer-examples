@@ -134,6 +134,7 @@ Layers by Creative Stall from the Noun Project
 Layers by Bernar  Novalyi from the Noun Project  
 Tag by Marta Ambrosetti from the Noun Project  
 Settings by Fahmi Ramdani from the Noun Project  
+Tools by Vectors Point from the Noun Project
 
 
 ##### About CC0, CC-BY, CC-BY-ND
@@ -161,6 +162,21 @@ Certain things -such as asset surfacing, and lighting updates- will need to be h
 
 #### Style guide
 [Examples style guide](https://github.com/GafferHQ/gaffer/wiki/Examples-Style-Guide)
+
+##### Extra styling
+###### Styling Exceptions
+Where nodes are Shots or Sequence based, for better readability  we prefix these nodes with `SEQ0001`  for exampe `SEQ0001_RenderQuality`, or `SEQ0001_SHO0002`
+###### Icons
+Icons are placed in /resources/icons.
+To set a Node's icon, open the Node's EditUI window and set the Node icon as `/resources/icons/iconName.png`
+###### IconScale
+You can set the Node's iconScale using the code snippet below.   
+The values used in the templates are `3.0`, `5.0` or `7.0`, depending on the node type and importance.
+```
+import Gaffer
+node = root['LDTTurnTable']
+Gaffer.Metadata.registerValue (node, 'iconScale', 7.0)
+```
 
 #### Licences:
 * When contributing you are agreeing to submit your work under a CC0 licence.  
