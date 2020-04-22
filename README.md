@@ -135,6 +135,8 @@ Layers by Bernar  Novalyi from the Noun Project
 Tag by Marta Ambrosetti from the Noun Project  
 Settings by Fahmi Ramdani from the Noun Project  
 Tools by Vectors Point from the Noun Project
+Start by Larea from the Noun Project
+Restore by Phoenix group from the Noun Project
 
 
 ##### About CC0, CC-BY, CC-BY-ND
