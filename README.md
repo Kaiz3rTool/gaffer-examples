@@ -109,10 +109,20 @@ following the original work.
 
 
 ##### PBR Textures
+###### cc0textures
 PBR textures by [www.cc0textures.com](https://www.cc0textures.com)   
 Terms of Use: This work is licenced under [CC0](https://help.cc0textures.com/doku.php?id=website:licence)
 
+###### 3dtextures me
+PBR textures by [https://3dtextures.me/](https://3dtextures.me/)   
+Terms of Use: This work is licenced under [CC0](https://3dtextures.me/about/)
+
 ##### HDRIs
+###### Pixar Renderman Stinson Beach
+Stinson Beach HDRI files by Loren Carpenter from [piper-look-dev](https://renderman.pixar.com/piper-look-dev)   
+Terms of Use: This work is licenced under [CC0](https://hdrihaven.com/p/licence.php)
+
+
 ###### hdrihaven
 HDR under /resources/hdri/hdrihaven by [www.hdrihaven.com](https://hdrihaven.com/)   
 Terms of Use: This work is licenced under [CC0](https://hdrihaven.com/p/licence.php)
