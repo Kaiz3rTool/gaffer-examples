@@ -9,7 +9,7 @@
 [Templates](#Templates)  
 [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Assets Template](#Assets-Template)  
 [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shots Template](#Shots-Template)  
-[Renders & Screenshots](#Renders-and-Screenshots)  
+[Renders](#Renders)  
 [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Barbershop](#Barbershop)  
 [&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clasroom](#Clasroom)  
 [Contribute! Help wanted](#Contribute)  
@@ -25,7 +25,7 @@ Set the project:gaffer-examples Variable to the root folder of this examples.
     NOTE: Due to file size limitations, the barbershop alembic file is compressed.
     Find it here /barbershop/abc/ and Uncompress it!.
 
-##### Not really required, but nice though!
+##### Not required, but really you should...
 For custom image/icons like the Shot boxes to show, you will need to set up this environment var.
 ```
 # Gaffer-examples
@@ -35,59 +35,32 @@ export GAFFERUI_IMAGE_PATHS=$GAFFERUI_IMAGE_PATHS:/mnt/emc/wrk/dev/gaffer-exampl
 
 
 ## Templates
-###### A list of nodes and functions the templates use as examples.
-
-#### Clasroom and Barbershop Assets
-* OpenGL visualizations
-    * Colors & textures.
-    * Sets for surfacing projects & surfacing objects using Alembic usrAttributes.
-* Reusable tileable materials
-    * Shaders deferred assignments using /Materials/
-    * CopyAttributes node as a shader assignment tool.
-    * ShaderTweak node used to tile the shared materials on specifc objects.
 
 #### Assets Template
-* NameSwitch nodes and ContextVariable nodes (for lightRigs, and render quality).
-* Wedge nodes (for lightRigs rendering).
-* CollectImages nodes (to load all lightRigs renders)
-* ContextVariable node for IPR branch lightrig select.
-* Transform nodes and FreezeTransform nodes.
-* Custom Built:
-    * LDTShowMetadata: Metadata keys search and overlay.
-    * LDTAssetIPR_RenderFilters: Commonly used render options switchs and overrides.
-    * LDTTurnTable: Camera auto framing, rotation, reference balls, etc.
-    * LDTCenterToOrigin: Isolate and place objects on the world grid.
-
 <img width="100%" src="docs/gaffer-examples_assetTemplate.png" alt="EZSurfacing Tools" style="" />
 
-    Asset Template, with lightrigs wedging, and metadata overlay.
+    Asset Template, with lightrigs wedge Render, metadata overlay and ContactSheet.
 
 #### Shots Template
-* NameSwitch nodes and ContextVariable nodes (for Master Lighting/Sequence/Shot).
-* EditScope nodes for per shot prunes, and transforms.
-* Per shot lights & blockers using Box nodes.
-* Shared master lightRigs using Box nodes.
-* Wedge nodes to render all the shots at once.
-* Enable/Disable specific Shots.   
 
 <img width="100%" src="docs/gaffer-examples_shotTemplate_shotLevel.png" alt="EZSurfacing Tools" style="" />
 
     Shot level Box nodes containing overrides, with rendered icons
 
-## Renders and Screenshots
+## Renders
+    Surfacing and Lighting WIP
+    No compositing, beauty pass only.
 
 ### Barbershop
-<img width="100%" src="docs/gaffer-examples_barbershop-v001_counterNight.jpg" alt="EZSurfacing Tools" style="" />   
-<img width="100%" src="docs/gaffer-examples_barbershop-v001_chairsNight.jpg" alt="EZSurfacing Tools" style="" />   
-<img width="100%" src="docs/gaffer-examples_barbershop-v001_chairsDay.jpg" alt="EZSurfacing Tools" style="" />   
-<img width="100%" src="docs/gaffer-examples_barbershop.png" alt="EZSurfacing Tools" style="" />   
+##### Sequence 1 & 2
+<img width="49%" src="resources/icons/SEQ0001_SHO001.png" alt="EZSurfacing Tools" style="" /> <img width="49%" src="resources/icons/SEQ0001_SHO002.png" alt="EZSurfacing Tools" style="" /><img width="49%" src="resources/icons/SEQ0001_SHO003.png" alt="EZSurfacing Tools" style="" /> <img width="49%" src="resources/icons/SEQ0002_SHO001.png" alt="EZSurfacing Tools" style="" /> <img width="49%" src="resources/icons/SEQ0002_SHO002.png" alt="EZSurfacing Tools" style="" /> <img width="49.5%" src="resources/icons/SEQ0002_SHO003.png" alt="EZSurfacing Tools" style="" />  
+
+### Clasroom 
+##### Sequence 3
+<img width="49.5%" src="resources/icons/SEQ0003_SHO001.png" alt="EZSurfacing Tools" style="" /> <img width="49%" src="resources/icons/SEQ0003_SHO002.png" alt="EZSurfacing Tools" style="" /> <img width="49.5%" src="resources/icons/SEQ0003_SHO003.png" alt="EZSurfacing Tools" style="" /> 
 
 
-### Clasroom
-<img width="100%" src="docs/gaffer-examples_clasroom-v001_originalCamera.jpg" alt="EZSurfacing Tools" style="" /> 
-<img width="100%" src="docs/gaffer-examples_classroom.png" alt="EZSurfacing Tools" style="" />
-
-## licences
+## Licences
 Different parts of this repository, are given with different licences.   
 You can find the plaintext legalcode licence files under each folder where applicable.  
 
@@ -120,7 +93,7 @@ Terms of Use: This work is licenced under [CC0](https://3dtextures.me/about/)
 ##### HDRIs
 ###### Pixar Renderman Stinson Beach
 Stinson Beach HDRI files by Loren Carpenter from [piper-look-dev](https://renderman.pixar.com/piper-look-dev)   
-Terms of Use: This work is licenced under [CC0](https://hdrihaven.com/p/licence.php)
+Terms of Use: This work is licenced under [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 
 ###### hdrihaven
@@ -157,19 +130,18 @@ Restore by Phoenix group from the Noun Project
 ## Contribute
 ### Help needed!
 Do you feel like:
-* sharing examples?
-* sharing cool tricks, templates, or workflows?
-* improve something from the templates?
 * helping with improving assets surfacing or lighting Setups?
+* sharing cool tricks, examples, templates, or workflows?
+* improve something from the templates?
 * helping translating the Assets and lighting to [Gaffer Cycles](https://github.com/boberfly/GafferCycles)?
 
 #### How to Contribute
 Before you start, contact us and let us know what you want to work on.  
 Certain things -such as asset surfacing, and lighting updates- will need to be handled case by case, to ensure a smooth conflict-free update in the main files.  
 
-[Fork, pull, branch, work, push, pull request as usual.](https://help.github.com/en/enterprise/2.16/user/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)  
+[Fork, clone, branch, work, push, pull request as usual.](https://help.github.com/en/enterprise/2.16/user/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)  
 
-        Not everybody is familiar with CC0 licences, and its derivates.
+        Not everybody is familiar with licences, in this case specially cc0 and its derivates.
         If you have concerns or questions about this subject, contact us.
 
 #### Style guide
@@ -177,13 +149,14 @@ Certain things -such as asset surfacing, and lighting updates- will need to be h
 
 ##### Extra styling
 ###### Styling Exceptions
-Where nodes are Shots or Sequence based, for better readability  we prefix these nodes with `SEQ0001`  for exampe `SEQ0001_RenderQuality`, or `SEQ0001_SHO0002`
+Where nodes are Shots or Sequence based, for better readability  we prefix these nodes with `SEQ0001`  for exampe `SEQ0001_RenderQuality` or `SEQ0001_SHO0002`
 ###### Icons
 Icons are placed in /resources/icons.
 To set a Node's icon, open the Node's EditUI window and set the Node icon as `/resources/icons/iconName.png`
 ###### IconScale
 You can set the Node's iconScale using the code snippet below.   
-The values used in the templates are `3.0`, `5.0` or `7.0`, depending on the node type and importance.
+The values used in the templates are `3.0`, `5.0` or `7.0`, depending on the node importance.
+Only Box Nodes are scaled.
 ```
 import Gaffer
 node = root['LDTTurnTable']
@@ -195,5 +168,5 @@ Gaffer.Metadata.registerValue (node, 'iconScale', 7.0)
 Attributions -although not required by this licence- will be given in this repository.
 * Files from external other sources need to be compatible with CC0 licence or its derivates. See the [licences](#licences) section.  
 This includes -but is not limited to- textures, `.hdr` files, `.grf` files, python scripts, Gaffer Nodes, etc.
-* Licences should be listed and specified for any external sources following their requirements.
+* Licences should be listed and specified for all external sources following their specific requirements.
 * Attributions should be given, even in the case of CC0 licenced material that do not required them.
